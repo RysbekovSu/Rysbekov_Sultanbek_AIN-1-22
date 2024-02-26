@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E10000"
+    android:padding="18sp"
+    tools:context=".SplashActivity">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/l"
+        android:layout_width="match_parent"
+        android:layout_height="213dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="350sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="112dp"
+        android:background="@color/black"
+        android:text="My Mood man"
+        android:textAlignment="center"
+        android:textColor="#4CE1CB"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
