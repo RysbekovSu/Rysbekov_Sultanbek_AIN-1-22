@@ -18,7 +18,7 @@ public class SplashActivity extends AppCompatActivity {
 
         lotty = findViewById(R.id.l);
 
-        lotty.setAnimation(R.raw.f1);
+        lotty.setAnimation(R.raw.f3);
 
         lotty.animate().alpha(1f).setDuration(3000).withEndAction(new Runnable() {
             @Override
